@@ -52,7 +52,7 @@ variable "zone_id" {
   default     = ""
 }
 
-variable "tags" {
+variable "cert_tags" {
   description = "A mapping of tags to assign to the resource"
   type        = map(string)
   default     = {}
